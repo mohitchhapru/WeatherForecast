@@ -1,6 +1,6 @@
-using WeatherForcastApplication.Models;
+using WeatherForecastApplication.Models;
 
-namespace WeatherForcastApplication.Services.Abstractions
+namespace WeatherForecastApplication.Services.Abstractions
 {
     public interface IWeatherService
     {

@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using WeatherForcastApplication.Models;
-using WeatherForcastApplication.Services;
+using WeatherForecastApplication.Models;
+using WeatherForecastApplication.Services;
 
-namespace WeatherForcastApplication.Controllers;
+namespace WeatherForecastApplication.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,8 +1,8 @@
-using WeatherForcastApplication.Services.Validation;
-using WeatherForcastApplication.Client;
-using WeatherForcastApplication.Models;
+using WeatherForecastApplication.Services.Validation;
+using WeatherForecastApplication.Client;
+using WeatherForecastApplication.Models;
 
-namespace WeatherForcastApplication.Services
+namespace WeatherForecastApplication.Services
 {
     public class WeatherService : Abstractions.IWeatherService
     {
@@ -18,7 +18,7 @@ namespace WeatherForcastApplication.Services
         public Task<WeatherForecastResponseDTO> GetWeatherForecastAsync(Models.WeatherForecastRequest weatherForecastRequest)
         {
             // TODO: Uncomment validation once exception handling is in place
-            // var validationResult = _requestValidator.ValidateAsync(weatherForecastRequest);
+            var validationResult = _requestValidator.ValidateAsync(weatherForecastRequest);
             // if (validationResult.IsValid == false)
             // {
             //     var errorMessages = string.Join('&', validationResult.Errors.Select(e => e.ErrorMessage));

@@ -1,7 +1,7 @@
-using WeatherForcastApplication.Services;
-using WeatherForcastApplication.Client;
-using WeatherForcastApplication.Common;
-using WeatherForcastApplication.Services.Validation;
+using WeatherForecastApplication.Services;
+using WeatherForecastApplication.Client;
+using WeatherForecastApplication.Common;
+using WeatherForecastApplication.Services.Validation;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);

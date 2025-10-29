@@ -1,7 +1,7 @@
 using FluentValidation;
-using WeatherForcastApplication.Models;
+using WeatherForecastApplication.Models;
 
-namespace WeatherForcastApplication.Services.Validation
+namespace WeatherForecastApplication.Services.Validation
 {
     public class WeatherForecastRequestValidator : AbstractValidator<WeatherForecastRequest>
     {

@@ -1,8 +1,8 @@
-using WeatherForcastApplication.Common;
-using WeatherForcastApplication.Models;
+using WeatherForecastApplication.Common;
+using WeatherForecastApplication.Models;
 using System.Text;
 
-namespace WeatherForcastApplication.Client
+namespace WeatherForecastApplication.Client
 {
     public class OpenMeteoClient
     {

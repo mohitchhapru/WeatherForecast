@@ -1,4 +1,4 @@
-namespace WeatherForcastApplication;
+namespace WeatherForecastApplication;
 
 public class WeatherForecast
 {

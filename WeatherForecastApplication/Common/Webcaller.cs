@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace WeatherForcastApplication.Common
+namespace WeatherForecastApplication.Common
 {
     public class Webcaller
     {

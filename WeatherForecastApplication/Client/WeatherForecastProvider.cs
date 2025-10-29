@@ -1,6 +1,6 @@
-using WeatherForcastApplication.Models;
+using WeatherForecastApplication.Models;
 
-namespace WeatherForcastApplication.Client
+namespace WeatherForecastApplication.Client
 {
     public class WeatherForecastProvider
     {

@@ -1,4 +1,4 @@
-namespace WeatherForcastApplication.Models
+namespace WeatherForecastApplication.Models
 {
     public enum TimeSeriesTypeEnum
     {
