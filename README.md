@@ -31,15 +31,14 @@ dotnet --version
 
 ```bash
 git clone git@github.com:mohitchhapru/WeatherForecast.git
-cd WeatherForecast
-dotnet build WeatherForcast.slnx -v minimal
+cd WeatherForecast/WeatherForecastApplication
+dotnet build WeatherForecastApplication.csproj -v minimal
 ```
 
 3. Run the Web API (from the application project folder):
 
 ```bash
-cd WeatherForcastApplication
-dotnet run --project WeatherForcastApplication.csproj
+dotnet run --project WeatherForecastApplication.csproj
 ```
 
 By default the app runs in Development and will listen on the port shown in the terminal (for example `http://localhost:5085`).
