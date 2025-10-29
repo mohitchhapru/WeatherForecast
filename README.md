@@ -30,9 +30,8 @@ dotnet --version
 2. Restore packages and build the solution:
 
 ```bash
-git clone <>
-cd <>
-dotnet restore
+git clone git@github.com:mohitchhapru/WeatherForecast.git
+cd WeatherForecast
 dotnet build WeatherForcast.slnx -v minimal
 ```
 
@@ -66,5 +65,3 @@ curl -X POST "http://localhost:5085/WeatherForecast/Get" \
 		"timezone": "Europe/London",
 		"forecastDays": 7
 	}'
-```
-# WeatherForecast
