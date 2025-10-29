@@ -116,6 +116,11 @@ rcf/
 appsettings.Development.json
 *.Development.json
 
+# SQLite Database
+*.db
+*.db-shm
+*.db-wal
+
 # macOS
 .DS_Store
 .AppleDouble

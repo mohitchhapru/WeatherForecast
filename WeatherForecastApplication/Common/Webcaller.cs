@@ -15,7 +15,7 @@ namespace WeatherForecastApplication.Common
         private async Task<T> ParseResponse<T>(HttpResponseMessage response)
         {
             var resultContent = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<T>(resultContent); ;
+            return JsonConvert.DeserializeObject<T>(resultContent);
         }
 
         public async Task<T> GetAsync<T>(string requestUri)
