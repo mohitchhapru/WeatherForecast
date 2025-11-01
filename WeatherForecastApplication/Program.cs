@@ -1,4 +1,5 @@
 using WeatherForecastApplication.Services;
+using WeatherForecastApplication.Services.Abstractions;
 using WeatherForecastApplication.Client;
 using WeatherForecastApplication.Common;
 using WeatherForecastApplication.Services.Validation;
@@ -23,7 +24,8 @@ builder.Services.AddScoped<Webcaller>();
 builder.Services.AddScoped<OpenMeteoClient>();
 builder.Services.AddScoped<WeatherForecastProvider>();
 builder.Services.AddScoped<WeatherForecastRequestValidator>();
-builder.Services.AddScoped<WeatherService>();
+// Register WeatherService via its abstraction for DI
+builder.Services.AddScoped<IWeatherService, WeatherService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
