@@ -77,7 +77,6 @@ dotnet ef --version
 
 ```bash
 # From the WeatherForecastApplication project folder
-cd WeatherForecastApplication
 dotnet ef database update
 ```
 
